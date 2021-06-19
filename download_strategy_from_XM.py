@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-# set webdriver as chrome
+# set the webdriver as chrome
 driver = webdriver.Chrome('chromedriver.exe')
 driver.get('https://my.xmtrading.com/jp/member/signals/calendar')
 time.sleep(1)
